@@ -19,3 +19,18 @@ for magician in magicians:
     print(f"{magician.title()} ese fue un buen hechizo.")
     print(f"No puedo esperar al siguiente, {magician.upper()}\n")
 print("Gracias por el show")
+
+# Identacion
+"""
+Pytho utiliza la identacion para determinar
+cuando na linea de codigo esta conectada a la
+linea de codigo anterior.
+Se utilizan 4 espacios en blanco para obligarnos 
+a escribir codigo ordenado y estructurado.
+"""
+#No olvidemos identar Traceback IdentationError
+players = ["lucy", "rebeca", "david"]
+#Error de Logica
+for player in players:
+    print(player)
+print(f"Algunos de ellos siguen vivos{player.title()}")

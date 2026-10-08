@@ -5,12 +5,9 @@ another_message = "Really, i`m so so so so happy"
 print(message)
 print(another_message)
 
-print(message, another_message, ", HEELLOOOOO")
+print(message, another_message, "HELLO")
 
-message = "Hi everybody"
-print(message)
-
-message = "Hi Python friend"
+message = "Hi everyvody"
 print(message)
 
 # Mi nombre es Aaron Alvarez
@@ -19,7 +16,7 @@ print(message)
 #Pero no hay teatro que lo haga
 
 """
-Reglas generales para nombrar variables en PYTHON
+Reglas generales para nombrar variables en PYTHON, Escritas en Lower Snake Case
 -Palabras en ingle.
 -Letrass,numeros y guion bajo.
 -Debe comenzar con una letra.
@@ -30,16 +27,5 @@ Reglas generales para nombrar variables en PYTHON
   correcto: "message_,_message_1"
   incorrecto: "1message 1"
 """
-"""
-Traceback: Registro donde la interpretacion 
-tuvo probemas al interpretar y ejecutar.
 
-ErrorName: Sucede cuando olvidamos establecer 
-el valor de una variabilidad antes de utiizarla 
-o cometido un error ortografico al ingresar el 
-nombre de la variable (typos).
-
-Unidad 1 Examen 70% Practicas 30% (equipo de 6-7, nombre, logo propio y de la uni, eslogan)
-   
-Unidad 3 Robot basado en la diciplina el TMR rmrc
-"""
+message = "Hola amigo python"
