@@ -1,12 +1,9 @@
 # Let`s try to use variables
 message = "this is my first program :), i`m very happie, THIS IS EPIC"
 another_message = "Really, i`m so so so so happy"
-
 print(message)
 print(another_message)
-
 print(message, another_message, "HELLO")
-
 message = "Hi everyvody"
 print(message)
 
@@ -27,5 +24,4 @@ Reglas generales para nombrar variables en PYTHON, Escritas en Lower Snake Case
   correcto: "message_,_message_1"
   incorrecto: "1message 1"
 """
-
 message = "Hola amigo python"

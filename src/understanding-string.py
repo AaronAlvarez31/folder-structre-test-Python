@@ -1,5 +1,4 @@
 # STRING
-
 """
 Un STRING es una serie de caracteres. En 
 PYTHON, todo entre comillas simples '' o 
