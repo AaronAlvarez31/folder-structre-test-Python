@@ -24,4 +24,3 @@ Reglas generales para nombrar variables en PYTHON, Escritas en Lower Snake Case
   correcto: "message_,_message_1"
   incorrecto: "1message 1"
 """
-message = "Hola amigo python"

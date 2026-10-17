@@ -3,7 +3,7 @@
 motorcycles= ["honda","mortalica","yamaha"]
 print(motorcycles)
 
-# Metodo ".append()"
+## Metodo ".append()"
 """
    El metodo '.append' ayuda a crear listas facilmente
    de manera dinamica.
@@ -18,18 +18,18 @@ motorcycles_2.append("yamaha") # 2°elemento
 motorcycles_2.append("suzuki") # 3°elemento
 print(motorcycles_2)
 
-# Metodo ".insert()"
+## Metodo ".insert()"
 """
    Agregas un elemento en donde tu quieras    
     Ejemplo
     motorcycles.insert('indice y elemento')
 """
-motorcycles.insert(0, "ducati")      # lo pone al inicio
+motorcycles.insert(0, "ducati")  # lo pone al inicio
 print(motorcycles)
-motorcycles.insert(2, "bmw")         # lo pone en el indice 2
+motorcycles.insert(2, "bmw")  # lo pone en el indice 2
 print(motorcycles)
 
-# Metodo ".pop()"
+## Metodo ".pop()"
 """
    Elimina elementos de la lista por indice.
 """
@@ -40,7 +40,7 @@ print(motorcycles)
 motorcycles.append(delete_motocycke)
 print(motorcycles)
 
-# Metodo ".remove()"
+## Metodo ".remove()"
 """
    Elimina elementos de la lista por VALOR (no por indice).
    - Solo elimina la PRIMERA coincidencia que encuentre.
