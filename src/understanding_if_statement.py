@@ -75,3 +75,30 @@ elif age == 666:
    print("mero del diablo")
 print("En un solo bloque".upper())
 print(f"El costo/precio del boleto es:{cost}")
+
+print("\n____________________________________________")
+guisos=["asado","chicharron","cochinita"]
+
+if "cochinita" in guisos:
+   print(f"si hay {guisos[2]}")
+elif "chicharron" in guisos:
+   print(f"si hay {guisos[1]}")
+elif "asado" in guisos:
+   print(f"si hay {guisos[0]}")
+else:
+
+   guisos2=["asado","chicharron","cochinita"]
+   if guisos2:
+      for guiso in guisos2:
+         print(guiso)
+   else:
+      print("Notenemos es ese gusio")
+
+guiso_disponible=["asado","chicharron","cochinita"]
+guiso_deseado=["barbacoa","chicharron","cabrito"]
+
+for guiso_orden in guiso_disponible:
+   if guiso_orden in guiso_disponible:
+      print(f"Si tenemos del guiso {guiso_orden}")
+else:
+   print(f"No tenemos {guiso_orden}, una idsculpa")
